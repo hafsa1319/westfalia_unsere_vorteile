@@ -1,0 +1,486 @@
+{
+  "settings": {
+    "name": "Akademie Unsere Vorteile",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "mobirise5",
+      "title": "Mobirise 5",
+      "styling": {
+        "primaryColor": "#6592e6",
+        "secondaryColor": "#ff6666",
+        "successColor": "#40b0bf",
+        "infoColor": "#47b5ed",
+        "warningColor": "#FFE161",
+        "dangerColor": "#ff9966",
+        "mainFont": "Jost",
+        "display1Font": "Jost",
+        "display1Size": 4.6,
+        "display2Font": "Jost",
+        "display2Size": 3,
+        "display5Font": "Jost",
+        "display5Size": 2,
+        "display7Font": "Jost",
+        "display7Size": 1.2,
+        "display4Font": "Jost",
+        "display4Size": 1.1,
+        "isRoundedButtons": false,
+        "isGhostButtonBorder": false,
+        "underlinedLinks": false,
+        "isAnimatedOnScroll": false,
+        "isScrollToTopButton": false
+      },
+      "additionalSetColors": []
+    },
+    "path": "@PROJECT_PATH@",
+    "versionFirst": "5.6.11",
+    "siteFonts": [
+      {
+        "css": "'Jost', sans-serif",
+        "name": "Jost",
+        "url": "https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i"
+      }
+    ],
+    "uniqCompNum": 8,
+    "versionPublish": "5.6.11",
+    "imageResize": true,
+    "chatbutton": {},
+    "favicon": "@PROJECT_PATH@/assets/images/favicon-128x126.png",
+    "mbrsiteDomain": "4exqw4rbai",
+    "cssOptimize": false,
+    "lazyLoad": false,
+    "robotsSwitcher": false,
+    "sitemapSwitcher": false,
+    "sitemapSwitcherAuto": false,
+    "siteUrl": false,
+    "cookiesAlert": false,
+    "gdpr": false,
+    "pwa-switcher": false
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Home",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_name": "tabs2",
+          "_sourceTheme": "cleanm4",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"tabs2 cleanm4_tabs2 tabs\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" group=\"Tabs\" mbr-class=\"{'mbr-parallax-background':bg.parallax, 'mbr-fullscreen': fullScreen}\" plugins=\"mbr-tabs\">\n\n\t<mbr-parameters>\n\t\t<header>Size</header>\n\t\t<input name=\"fullWidth\" title=\"Full Width\" type=\"checkbox\">\n\t\t<input name=\"fullScreen\" title=\"Full Screen\" type=\"checkbox\">\n\t\t<input condition=\"!fullScreen\" inline max=\"9\" min=\"0\" name=\"paddingTop\" step=\"1\" title=\"Top\" type=\"range\" value=\"6\">\n\t\t<input condition=\"!fullScreen\" inline max=\"9\" min=\"0\" name=\"paddingBottom\" step=\"1\" title=\"Bottom\" type=\"range\" value=\"5\">\n\t\t<select name=\"bootstrapTabs\" title=\"Tabs Count\">\n\t\t\t<option value=\"1\">1</option>\n\t\t\t<option value=\"2\">2</option>\n\t\t\t<option value=\"3\">3</option>\n\t\t\t<option value=\"4\">4</option>\n\t\t\t<option value=\"5\" selected>5</option>\n\t\t\t<option value=\"6\">6</option>\n\t\t\t<option value=\"7\">7</option>\n\t\t\t<option value=\"8\">8</option>\n\t\t</select>\n\t\t<header>Show / Hide</header>\n\t\t<input name=\"showMainSubtitle\" title=\"Main Subtitle\" type=\"checkbox\">\n\t\t<input name=\"showMainTitle\" title=\"Main Title\" type=\"checkbox\">\n\t\t<input name=\"showMainText\" title=\"Main Text\" type=\"checkbox\">\n\t\t<input name=\"showForm\" title=\"Show Form\" type=\"checkbox\">\n\t\t<input name=\"showTitle\" title=\"Title\" type=\"checkbox\">\n\t\t<input name=\"showSubtitle\" title=\"Subtitle\" type=\"checkbox\">\n\t\t<input name=\"showMeta\" title=\"Meta\" type=\"checkbox\">\n\t\t<input checked condition=\"showMeta\" name=\"showLines\" title=\"Lines\" type=\"checkbox\">\n\t\t<input name=\"showText\" title=\"Text\" type=\"checkbox\">\n\t\t<input name=\"showLink\" title=\"Link\" type=\"checkbox\">\n\t\t<header>Tabs</header>\n\t\t<input name=\"tabsSectionBgColor\" selected title=\"Tabs Section Bg\" type=\"color\" value=\"#eeeff2\">\n\t\t<input name=\"tabTextColor\" title=\"Text\" type=\"color\" value=\"#83868c\">\n\t\t<input name=\"tabBgColor\" title=\"Bg\" type=\"color\" value=\"#ffffff\">\n\t\t<input name=\"tabTextHoverColor\" title=\"Text Hover\" type=\"color\" value=\"#ffffff\">\n\t\t<input name=\"tabBgHoverColor\" title=\"Bg Hover\" type=\"color\" value=\"#4479d9\">\n\t\t<input name=\"activeTabColor1\" title=\"Active Tab\" type=\"color\" value=\"#ffffff\">\n\t\t<header condition=\"showMeta || showLink\">Colors</header>\n\t\t<input condition=\"showMeta\" name=\"tagsHoverColor\" selected title=\"Tags Hover\" type=\"color\" value=\"#279e64\">\n\t\t<input condition=\"showMeta && showLines\" name=\"linesColor\" selected title=\"Lines\" type=\"color\" value=\"#279e64\">\n\t\t<input condition=\"showLink\" name=\"iconColor\" selected title=\"Link Icon\" type=\"color\" value=\"#13287d\">\n\t\t<input condition=\"showLink\" name=\"iconColorHover\" selected title=\"Link Icon Hover\" type=\"color\" value=\"#ffffff\">\n\t\t<input condition=\"showLink\" name=\"iconBgColorHover\" selected title=\"Link Icon Bg Hover\" type=\"color\" value=\"#279e64\">\n\t\t<input condition=\"showForm\" name=\"inputBg\" title=\"Input BG\" type=\"color\" value=\"#ffffff\">\n\t\t<input condition=\"showForm\" name=\"inputTextColor\" title=\"Input Text\" type=\"color\" value=\"#83868c\">\n\t\t<header>Background</header>\n\t\t<fieldset name=\"bg\" parallax type=\"background\">\n\t\t\t<input parallax title=\"Image\" type=\"image\" value=\"../_images/background3.jpg\">\n\t\t\t<input selected title=\"Color\" type=\"color\" value=\"#ffffff\">\n\t\t\t<input title=\"Video\" type=\"video\" value=\"https://youtu.be/iM-NestDPNQ\">\n\t\t</fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"@ADDONS_PATH@/cleanm4/components/_images/background1.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n\n\t\t<input condition=\"bg.type=='color'\" name=\"gradientBg\" title=\"Gradient\" type=\"checkbox\">\n\t\t<input condition=\"gradientBg&&bg.type == 'color'\" name=\"color2\" title=\"Color 2\" type=\"color\" value=\"#279e64\">\n\n\t\t<input checked condition=\"bg.type !== 'color'\" name=\"overlay\" title=\"Overlay\" type=\"checkbox\">\n\t\t<input condition=\"overlay&&bg.type !== 'color'\" name=\"overlayColor\" title=\"Overlay Color\" type=\"color\" value=\"#ffffff\">\n\t\t<input condition=\"overlay&&bg.type !== 'color'\" inline max=\"1\" min=\"0\" name=\"overlayOpacity\" step=\"0.1\" title=\"Opacity\" type=\"range\" value=\"0.8\">\n\t</mbr-parameters>\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n\n\n\t<div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\"></div>\n\n\t<div mbr-class=\"{'container-fluid': fullWidth, 'container': !fullWidth }\">\n\t\t<div class=\"main-content\">\n\t\t\t<h3 class=\"mbr-section-subtitle mbr-fonts-style align-center mbr-bold\" data-app-selector=\".main-content .mbr-section-subtitle\" mbr-if=\"showMainSubtitle\" mbr-theme-style=\"display-4\">Some Info </h3>\n\t\t\t<h2 class=\"mbr-fonts-style mbr-section-title align-center mbr-bold\" data-app-selector=\".main-content .mbr-section-title\" mbr-if=\"showMainTitle\" mbr-theme-style=\"display-2\">\n\t\t\t\tExpert’s perspective about Window cleaning drawing </h2>\n\t\t\t<p class=\"mbr-text mbr-fonts-style align-center mbr-regular\" data-app-selector=\".main-content .mbr-text\" data-multiline mbr-article mbr-if=\"showMainText\" mbr-theme-style=\"display-7\">\n\t\t\t\tLeo duis ut diam quam nulla porttitor massa id neque. Sed risus pretium quam vulputate. Habitasse platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper.</p>\n\t\t</div>\n\n\t\t<div class=\"row\">\n\t\t\t<div class=\"col-lg-8 order-lg-1 order-2\">\n\t\t\t\t<div class=\"tab-content\">\n\t\t\t\t\t<div aria-labelledby=\"clean2-tab1\" class=\"tab-pane active\" id=\"clean2-tab1-content\" role=\"tabpanel\">\n\t\t\t\t\t\t<div class=\"card-wrapper\">\n\t\t\t\t\t\t\t<div class=\"img-wrap\">\n\t\t\t\t\t\t\t\t<img alt class=\"img-responsive clients-img\" src=\"../_images/img/06.jpg\" title>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"card-box align-left\">\n\t\t\t\t\t\t\t\t<h4 class=\"mbr-fonts-style mbr-semibold align-left card-title\" data-app-selector=\".card-wrapper .card-box .card-title, .mbr-section-btn, .card-wrapper .card-box .meta\" mbr-if=\"showTitle\" mbr-theme-style=\"display-2\">\n\t\t\t\t\t\t\t\t\tTips for cleaning child care facilities the safe &amp; healthy way</h4>\n\t\t\t\t\t\t\t\t<h5 class=\"card-subtitle align-left mbr-fonts-style mb-4\" data-app-selector=\".card-wrapper .card-box .card-subtitle, .mbr-section-btn, .card-wrapper .card-box .meta\" mbr-if=\"showSubtitle\" mbr-theme-style=\"display-7\">\n\t\t\t\t\t\t\t\t\tThe best outdoor cleaning</h5>\n\t\t\t\t\t\t\t\t<div class=\"meta mbr-bold\" mbr-if=\"showMeta\" mbr-theme-style=\"display-4\">\n\t\t\t\t\t\t\t\t\t<span class=\"item-category\">\n\t\t\t\t\t\t\t\t\t\t<span class=\"mbr-iconfont clock mbrib-folder\" mbr-icon></span>\n\t\t\t\t\t\t\t\t\t\t<span class=\"mbr-fonts-style mbr-text category item\" data-app-selector=\".card-wrapper .card-box .meta .item-category .category, .card-wrapper .card-box .meta\" mbr-text mbr-theme-style=\"display-4\">House\n\t\t\t\t\t\t\t\t\t\t\tCleaning, </span>\n\t\t\t\t\t\t\t\t\t\t<span class=\"mbr-fonts-style mbr-text category item\" data-app-selector=\".card-wrapper .card-box .meta .item-category .category, .card-wrapper .card-box .meta\" mbr-text mbr-theme-style=\"display-4\">Outdoor\n\t\t\t\t\t\t\t\t\t\t\tCleaning</span>\n\t\t\t\t\t\t\t\t\t</span> <span class=\"item-date\">\n\t\t\t\t\t\t\t\t\t\t<span class=\"mbr-iconfont comment mbrib-calendar\" mbr-icon></span>\n\t\t\t\t\t\t\t\t\t\t<span class=\"mbr-fonts-style mbr-text date item\" data-app-selector=\".card-wrapper .card-box .meta .item-date .date, .card-wrapper .card-box .meta\" mbr-text mbr-theme-style=\"display-4\">July\n\t\t\t\t\t\t\t\t\t\t\t20,\n\t\t\t\t\t\t\t\t\t\t\t2025</span>\n\t\t\t\t\t\t\t\t\t</span> <span class=\"item-comment\">\n\t\t\t\t\t\t\t\t\t\t<span class=\"mbr-iconfont comment mbrib-help\" mbr-icon></span>\n\t\t\t\t\t\t\t\t\t\t<span class=\"mbr-fonts-style mbr-text comment item\" data-app-selector=\".card-wrapper .card-box .meta .item-comment .comment, .card-wrapper .card-box .meta\" mbr-text mbr-theme-style=\"display-4\">No\n\t\t\t\t\t\t\t\t\t\t\tComments</span>\n\t\t\t\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t<p class=\"mbr-fonts-style mbr-text mbr-regular align-left pt-3\" data-app-selector=\".card-wrapper .card-box .mbr-text, .mbr-section-btn\" mbr-if=\"showText\" mbr-theme-style=\"display-4\">\n\t\t\t\t\t\t\t\t\tSagittis eu volutpat odio facilisis mauris sit amet massa vitae. Pellentesque habitant morbi tristique senectus. Quis commodo odio aenean sed adipiscing diam donec adipiscing tristique. Eget nunc lobortis mattis aliquam faucibus purus in. Curabitur vitae nunc sed velit dignissim sodales ut eu sem.</p>\n\n\t\t\t\t\t\t\t\t<div class=\"mbr-section-btn mbr-fonts-style mbr-text\" data-app-selector=\".mbr-fonts-style\" data-toolbar=\"mbrBtnMove,mbrBtnLink,mbrBtnAdd\" mbr-buttons=\"true\" mbr-if=\"showLink\" mbr-theme-style=\"display-4\">\n\t\t\t\t\t\t\t\t\t<a class=\"mbr-section-text mbr-bold pb-3 mbr-fonts-style d-inline-block link text-primary\" data-app-selector=\".mbr-fonts-style\" mbr-if=\"showLink\" mbr-theme-style=\"display-4\"> Continue Reading<span class=\"mbrib-plus mbr-iconfont mbr-iconfont-btn mbr-bold\" mbr-icon></span></a>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div aria-labelledby=\"clean2-tab2\" class=\"tab-pane\" id=\"clean2-tab2-content\" role=\"tabpanel\">\n\t\t\t\t\t\t<div class=\"card-wrapper\">\n\t\t\t\t\t\t\t<div class=\"img-wrap\">\n\t\t\t\t\t\t\t\t<img alt class=\"img-responsive clients-img\" src=\"../_images/img/05.jpg\" title>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"card-box align-left\">\n\t\t\t\t\t\t\t\t<h4 class=\"mbr-fonts-style mbr-semibold align-left card-title\" data-app-selector=\".card-wrapper .card-box .card-title, .mbr-section-btn, .card-wrapper .card-box .meta\" mbr-if=\"showTitle\" mbr-theme-style=\"display-2\">\n\t\t\t\t\t\t\t\t\tThe Reasons why you should hire a profession Cleaning Service</h4>\n\t\t\t\t\t\t\t\t<h5 class=\"card-subtitle align-left mbr-fonts-style mb-4\" data-app-selector=\".card-wrapper .card-box .card-subtitle, .mbr-section-btn, .card-wrapper .card-box .meta\" mbr-if=\"showSubtitle\" mbr-theme-style=\"display-7\">\n\t\t\t\t\t\t\t\t\tThe best outdoor cleaning</h5>\n\t\t\t\t\t\t\t\t<div class=\"meta mbr-bold\" mbr-if=\"showMeta\" mbr-theme-style=\"display-4\">\n\t\t\t\t\t\t\t\t\t<span class=\"item-category\">\n\t\t\t\t\t\t\t\t\t\t<span class=\"mbr-iconfont clock mbrib-folder\" mbr-icon></span>\n\t\t\t\t\t\t\t\t\t\t<span class=\"mbr-fonts-style mbr-text category item\" data-app-selector=\".card-wrapper .card-box .meta .item-category .item, .card-wrapper .card-box .meta\" mbr-text mbr-theme-style=\"display-4\">Kitchen\n\t\t\t\t\t\t\t\t\t\t\tCleaning, </span>\n\t\t\t\t\t\t\t\t\t\t<span class=\"mbr-fonts-style mbr-text category item\" data-app-selector=\".card-wrapper .card-box .meta .item-category .item, .card-wrapper .card-box .meta\" mbr-text mbr-theme-style=\"display-4\">Office\n\t\t\t\t\t\t\t\t\t\t\tCleaning, </span>\n\t\t\t\t\t\t\t\t\t</span> <span class=\"item-date\">\n\t\t\t\t\t\t\t\t\t\t<span class=\"mbr-iconfont comment mbrib-calendar\" mbr-icon></span>\n\t\t\t\t\t\t\t\t\t\t<span class=\"mbr-fonts-style mbr-text date item\" data-app-selector=\".card-wrapper .card-box .meta .item-date .date, .card-wrapper .card-box .meta\" mbr-text mbr-theme-style=\"display-4\">July\n\t\t\t\t\t\t\t\t\t\t\t22,\n\t\t\t\t\t\t\t\t\t\t\t2025</span>\n\t\t\t\t\t\t\t\t\t</span> <span class=\"item-comment\">\n\t\t\t\t\t\t\t\t\t\t<span class=\"mbr-iconfont comment mbrib-help\" mbr-icon></span>\n\t\t\t\t\t\t\t\t\t\t<span class=\"mbr-fonts-style mbr-text comment item\" data-app-selector=\".card-wrapper .card-box .meta .item-comment .comment, .card-wrapper .card-box .meta\" mbr-text mbr-theme-style=\"display-4\">\n\t\t\t\t\t\t\t\t\t\t\tComments: 2</span>\n\t\t\t\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t<p class=\"mbr-fonts-style mbr-text mbr-regular align-left pt-3\" data-app-selector=\".card-wrapper .card-box .mbr-text, .mbr-section-btn\" mbr-if=\"showText\" mbr-theme-style=\"display-4\">\n\t\t\t\t\t\t\t\t\tSagittis eu volutpat odio facilisis mauris sit amet massa vitae. Pellentesque habitant morbi tristique senectus. Quis commodo odio aenean sed adipiscing diam donec adipiscing tristique. Eget nunc lobortis mattis aliquam faucibus purus in. Curabitur vitae nunc sed velit dignissim sodales ut eu sem.</p>\n\n\t\t\t\t\t\t\t\t<div class=\"mbr-section-btn mbr-fonts-style mbr-text\" data-app-selector=\".mbr-fonts-style\" data-toolbar=\"mbrBtnMove,mbrBtnLink,mbrBtnAdd\" mbr-buttons=\"true\" mbr-if=\"showLink\" mbr-theme-style=\"display-4\">\n\t\t\t\t\t\t\t\t\t<a class=\"mbr-section-text mbr-bold pb-3 mbr-fonts-style d-inline-block link text-primary\" data-app-selector=\".mbr-fonts-style\" mbr-if=\"showLink\" mbr-theme-style=\"display-4\"> Continue Reading<span class=\"mbrib-plus mbr-iconfont mbr-iconfont-btn mbr-bold\" mbr-icon></span></a>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div aria-labelledby=\"clean2-tab3\" class=\"tab-pane\" id=\"clean2-tab3-content\" role=\"tabpanel\">\n\t\t\t\t\t\t<div class=\"card-wrapper\">\n\t\t\t\t\t\t\t<div class=\"img-wrap\">\n\t\t\t\t\t\t\t\t<img alt class=\"img-responsive clients-img\" src=\"../_images/img/03.jpg\" title>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"card-box align-left\">\n\n\t\t\t\t\t\t\t\t<h4 class=\"mbr-fonts-style mbr-semibold align-left card-title\" data-app-selector=\".card-wrapper .card-box .card-title, .mbr-section-btn, .card-wrapper .card-box .meta\" mbr-if=\"showTitle\" mbr-theme-style=\"display-2\">\n\t\t\t\t\t\t\t\t\tHandy tips to help you spend less time on House-Cleaning</h4>\n\t\t\t\t\t\t\t\t<h5 class=\"card-subtitle align-left mbr-fonts-style mb-4\" data-app-selector=\".card-wrapper .card-box .card-subtitle, .mbr-section-btn, .card-wrapper .card-box .meta\" mbr-if=\"showSubtitle\" mbr-theme-style=\"display-7\">\n\t\t\t\t\t\t\t\t\tThe best outdoor cleaning</h5>\n\t\t\t\t\t\t\t\t<div class=\"meta mbr-bold\" mbr-if=\"showMeta\" mbr-theme-style=\"display-4\">\n\t\t\t\t\t\t\t\t\t<span class=\"item-category\">\n\t\t\t\t\t\t\t\t\t\t<span class=\"mbr-iconfont clock mbrib-folder\" mbr-icon></span>\n\t\t\t\t\t\t\t\t\t\t<span class=\"mbr-fonts-style mbr-text category item\" data-app-selector=\".card-wrapper .card-box .meta .item-category .item, .card-wrapper .card-box .meta\" mbr-text mbr-theme-style=\"display-4\">Carpet\n\t\t\t\t\t\t\t\t\t\t\tCleaning</span>\n\t\t\t\t\t\t\t\t\t\t<span class=\"mbr-fonts-style mbr-text category item\" data-app-selector=\".card-wrapper .card-box .meta .item-category .item, .card-wrapper .card-box .meta\" mbr-text mbr-theme-style=\"display-4\">House\n\t\t\t\t\t\t\t\t\t\t\tCleaning</span>\n\t\t\t\t\t\t\t\t\t</span> <span class=\"item-date\">\n\t\t\t\t\t\t\t\t\t\t<span class=\"mbr-iconfont comment mbrib-calendar\" mbr-icon></span>\n\t\t\t\t\t\t\t\t\t\t<span class=\"mbr-fonts-style mbr-text date item\" data-app-selector=\".card-wrapper .card-box .meta .item-date .date, .card-wrapper .card-box .meta\" mbr-text mbr-theme-style=\"display-4\">July\n\t\t\t\t\t\t\t\t\t\t\t23,\n\t\t\t\t\t\t\t\t\t\t\t2025</span>\n\t\t\t\t\t\t\t\t\t</span> <span class=\"item-comment\">\n\t\t\t\t\t\t\t\t\t\t<span class=\"mbr-iconfont comment mbrib-help\" mbr-icon></span>\n\t\t\t\t\t\t\t\t\t\t<span class=\"mbr-fonts-style mbr-text comment item\" data-app-selector=\".card-wrapper .card-box .meta .item-comment .comment, .card-wrapper .card-box .meta\" mbr-text mbr-theme-style=\"display-4\">\n\t\t\t\t\t\t\t\t\t\t\tComments: 3</span>\n\t\t\t\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t<p class=\"mbr-fonts-style mbr-text mbr-regular align-left pt-3\" data-app-selector=\".card-wrapper .card-box .mbr-text, .mbr-section-btn\" mbr-if=\"showText\" mbr-theme-style=\"display-4\">\n\t\t\t\t\t\t\t\t\tSagittis eu volutpat odio facilisis mauris sit amet massa vitae. Pellentesque habitant morbi tristique senectus. Quis commodo odio aenean sed adipiscing diam donec adipiscing tristique. Eget nunc lobortis mattis aliquam faucibus purus in. Curabitur vitae nunc sed velit dignissim sodales ut eu sem.</p>\n\n\t\t\t\t\t\t\t\t<div class=\"mbr-section-btn mbr-fonts-style mbr-text\" data-app-selector=\".mbr-fonts-style\" data-toolbar=\"mbrBtnMove,mbrBtnLink,mbrBtnAdd\" mbr-buttons=\"true\" mbr-if=\"showLink\" mbr-theme-style=\"display-4\">\n\t\t\t\t\t\t\t\t\t<a class=\"mbr-section-text mbr-bold pb-3 mbr-fonts-style d-inline-block link text-primary\" data-app-selector=\".mbr-fonts-style\" mbr-if=\"showLink\" mbr-theme-style=\"display-4\"> Continue Reading<span class=\"mbrib-plus mbr-iconfont mbr-iconfont-btn mbr-bold\" mbr-icon></span></a>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div aria-labelledby=\"clean2-tab4\" class=\"tab-pane\" id=\"clean2-tab4-content\" role=\"tabpanel\">\n\t\t\t\t\t\t<div class=\"card-wrapper\">\n\t\t\t\t\t\t\t<div class=\"img-wrap\">\n\t\t\t\t\t\t\t\t<img alt class=\"img-responsive clients-img\" src=\"../_images/img/08.jpg\" title>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"card-box align-left\">\n\n\t\t\t\t\t\t\t\t<h4 class=\"mbr-fonts-style mbr-semibold align-left card-title\" data-app-selector=\".card-wrapper .card-box .card-title, .mbr-section-btn, .card-wrapper .card-box .meta\" mbr-if=\"showTitle\" mbr-theme-style=\"display-2\">\n\t\t\t\t\t\t\t\t\tDo you know how to a Healthy Lawn?</h4>\n\t\t\t\t\t\t\t\t<h5 class=\"card-subtitle align-left mbr-fonts-style mb-4\" data-app-selector=\".card-wrapper .card-box .card-subtitle, .mbr-section-btn, .card-wrapper .card-box .meta\" mbr-if=\"showSubtitle\" mbr-theme-style=\"display-7\">\n\t\t\t\t\t\t\t\t\tThe best outdoor cleaning</h5>\n\t\t\t\t\t\t\t\t<div class=\"meta mbr-bold\" mbr-if=\"showMeta\" mbr-theme-style=\"display-4\">\n\t\t\t\t\t\t\t\t\t<span class=\"item-category\">\n\t\t\t\t\t\t\t\t\t\t<span class=\"mbr-iconfont clock mbrib-folder\" mbr-icon></span>\n\t\t\t\t\t\t\t\t\t\t<span class=\"mbr-fonts-style mbr-text category item\" data-app-selector=\".card-wrapper .card-box .meta .item-category .item, .card-wrapper .card-box .meta\" mbr-text mbr-theme-style=\"display-4\">House\n\t\t\t\t\t\t\t\t\t\t\tCleaning</span>\n\t\t\t\t\t\t\t\t\t</span> <span class=\"item-date\">\n\t\t\t\t\t\t\t\t\t\t<span class=\"mbr-iconfont comment mbrib-calendar\" mbr-icon></span>\n\t\t\t\t\t\t\t\t\t\t<span class=\"mbr-fonts-style mbr-text date item\" data-app-selector=\".card-wrapper .card-box .meta .item-date .date, .card-wrapper .card-box .meta\" mbr-text mbr-theme-style=\"display-4\">July\n\t\t\t\t\t\t\t\t\t\t\t24,\n\t\t\t\t\t\t\t\t\t\t\t2025</span>\n\t\t\t\t\t\t\t\t\t</span> <span class=\"item-comment\">\n\t\t\t\t\t\t\t\t\t\t<span class=\"mbr-iconfont comment mbrib-help\" mbr-icon></span>\n\t\t\t\t\t\t\t\t\t\t<span class=\"mbr-fonts-style mbr-text comment item\" data-app-selector=\".card-wrapper .card-box .meta .item-comment .comment, .card-wrapper .card-box .meta\" mbr-text mbr-theme-style=\"display-4\">\n\t\t\t\t\t\t\t\t\t\t\tComments: 4</span>\n\t\t\t\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t<p class=\"mbr-fonts-style mbr-text mbr-regular align-left pt-3\" data-app-selector=\".card-wrapper .card-box .mbr-text, .mbr-section-btn\" mbr-if=\"showText\" mbr-theme-style=\"display-4\">\n\t\t\t\t\t\t\t\t\tSagittis eu volutpat odio facilisis mauris sit amet massa vitae. Pellentesque habitant morbi tristique senectus. Quis commodo odio aenean sed adipiscing diam donec adipiscing tristique. Eget nunc lobortis mattis aliquam faucibus purus in. Curabitur vitae nunc sed velit dignissim sodales ut eu sem.</p>\n\n\t\t\t\t\t\t\t\t<div class=\"mbr-section-btn mbr-fonts-style mbr-text\" data-app-selector=\".mbr-fonts-style\" data-toolbar=\"mbrBtnMove,mbrBtnLink,mbrBtnAdd\" mbr-buttons=\"true\" mbr-if=\"showLink\" mbr-theme-style=\"display-4\">\n\t\t\t\t\t\t\t\t\t<a class=\"mbr-section-text mbr-bold pb-3 mbr-fonts-style d-inline-block link text-primary\" data-app-selector=\".mbr-fonts-style\" mbr-if=\"showLink\" mbr-theme-style=\"display-4\"> Continue Reading<span class=\"mbrib-plus mbr-iconfont mbr-iconfont-btn mbr-bold\" mbr-icon></span></a>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div aria-labelledby=\"clean2-tab5\" class=\"tab-pane\" id=\"clean2-tab5-content\" role=\"tabpanel\">\n\t\t\t\t\t\t<div class=\"card-wrapper\">\n\t\t\t\t\t\t\t<div class=\"img-wrap\">\n\t\t\t\t\t\t\t\t<img alt class=\"img-responsive clients-img\" src=\"../_images/img/09.jpg\" title>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"card-box align-left\">\n\n\t\t\t\t\t\t\t\t<h4 class=\"mbr-fonts-style mbr-semibold align-left card-title\" data-app-selector=\".card-wrapper .card-box .card-title, .mbr-section-btn, .card-wrapper .card-box .meta\" mbr-if=\"showTitle\" mbr-theme-style=\"display-2\">\n\t\t\t\t\t\t\t\t\tThe Green cleaning tips to combat fall germs and the flu</h4>\n\t\t\t\t\t\t\t\t<h5 class=\"card-subtitle align-left mbr-fonts-style mb-4\" data-app-selector=\".card-wrapper .card-box .card-subtitle, .mbr-section-btn, .card-wrapper .card-box .meta\" mbr-if=\"showSubtitle\" mbr-theme-style=\"display-7\">\n\t\t\t\t\t\t\t\t\tThe best outdoor cleaning</h5>\n\t\t\t\t\t\t\t\t<div class=\"meta mbr-bold\" mbr-if=\"showMeta\" mbr-theme-style=\"display-4\">\n\t\t\t\t\t\t\t\t\t<span class=\"item-category\">\n\t\t\t\t\t\t\t\t\t\t<span class=\"mbr-iconfont clock mbrib-folder\" mbr-icon></span>\n\t\t\t\t\t\t\t\t\t\t<span class=\"mbr-fonts-style mbr-text category item\" data-app-selector=\".card-wrapper .card-box .meta .item-category .item, .card-wrapper .card-box .meta\" mbr-text mbr-theme-style=\"display-4\">House\n\t\t\t\t\t\t\t\t\t\t\tCleaning</span>\n\t\t\t\t\t\t\t\t\t</span> <span class=\"item-date\">\n\t\t\t\t\t\t\t\t\t\t<span class=\"mbr-iconfont comment mbrib-calendar\" mbr-icon></span>\n\t\t\t\t\t\t\t\t\t\t<span class=\"mbr-fonts-style mbr-text date item\" data-app-selector=\".card-wrapper .card-box .meta .item-date .date, .card-wrapper .card-box .meta\" mbr-text mbr-theme-style=\"display-4\">July\n\t\t\t\t\t\t\t\t\t\t\t25,\n\t\t\t\t\t\t\t\t\t\t\t2025</span>\n\t\t\t\t\t\t\t\t\t</span> <span class=\"item-comment\">\n\t\t\t\t\t\t\t\t\t\t<span class=\"mbr-iconfont comment mbrib-help\" mbr-icon></span>\n\t\t\t\t\t\t\t\t\t\t<span class=\"mbr-fonts-style mbr-text comment item\" data-app-selector=\".card-wrapper .card-box .meta .item-comment .comment, .card-wrapper .card-box .meta\" mbr-text mbr-theme-style=\"display-4\">No\n\t\t\t\t\t\t\t\t\t\t\tComments: 5</span>\n\t\t\t\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t<p class=\"mbr-fonts-style mbr-text mbr-regular align-left pt-3\" data-app-selector=\".card-wrapper .card-box .mbr-text, .mbr-section-btn\" mbr-if=\"showText\" mbr-theme-style=\"display-4\">\n\t\t\t\t\t\t\t\t\tSagittis eu volutpat odio facilisis mauris sit amet massa vitae. Pellentesque habitant morbi tristique senectus. Quis commodo odio aenean sed adipiscing diam donec adipiscing tristique. Eget nunc lobortis mattis aliquam faucibus purus in. Curabitur vitae nunc sed velit dignissim sodales ut eu sem.</p>\n\n\t\t\t\t\t\t\t\t<div class=\"mbr-section-btn mbr-fonts-style mbr-text\" data-app-selector=\".mbr-fonts-style\" data-toolbar=\"mbrBtnMove,mbrBtnLink,mbrBtnAdd\" mbr-buttons=\"true\" mbr-if=\"showLink\" mbr-theme-style=\"display-4\">\n\t\t\t\t\t\t\t\t\t<a class=\"mbr-section-text mbr-bold pb-3 mbr-fonts-style d-inline-block link text-primary\" data-app-selector=\".mbr-fonts-style\" mbr-if=\"showLink\" mbr-theme-style=\"display-4\"> Continue Reading<span class=\"mbrib-plus mbr-iconfont mbr-iconfont-btn mbr-bold\" mbr-icon></span></a>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div aria-labelledby=\"clean2-tab6\" class=\"tab-pane\" id=\"clean2-tab6-content\" role=\"tabpanel\">\n\t\t\t\t\t\t<div class=\"card-wrapper\">\n\t\t\t\t\t\t\t<div class=\"img-wrap\">\n\t\t\t\t\t\t\t\t<img alt class=\"img-responsive clients-img\" src=\"../_images/img/10.jpg\" title>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"card-box align-left\">\n\n\t\t\t\t\t\t\t\t<h4 class=\"mbr-fonts-style mbr-semibold align-left card-title\" data-app-selector=\".card-wrapper .card-box .card-title, .mbr-section-btn, .card-wrapper .card-box .meta\" mbr-if=\"showTitle\" mbr-theme-style=\"display-2\">\n\t\t\t\t\t\t\t\t\tWe clean. You Relax.</h4>\n\t\t\t\t\t\t\t\t<h5 class=\"card-subtitle align-left mbr-fonts-style mb-4\" data-app-selector=\".card-wrapper .card-box .card-subtitle, .mbr-section-btn, .card-wrapper .card-box .meta\" mbr-if=\"showSubtitle\" mbr-theme-style=\"display-7\">\n\t\t\t\t\t\t\t\t\tAll Cleaners are Bonded &amp; Insured</h5>\n\t\t\t\t\t\t\t\t<div class=\"meta mbr-bold\" mbr-if=\"showMeta\" mbr-theme-style=\"display-4\">\n\t\t\t\t\t\t\t\t\t<span class=\"item-category\">\n\t\t\t\t\t\t\t\t\t\t<span class=\"mbr-iconfont clock mbrib-folder\" mbr-icon></span>\n\t\t\t\t\t\t\t\t\t\t<span class=\"mbr-fonts-style mbr-text category item\" data-app-selector=\".card-wrapper .card-box .meta .item-category .item, .card-wrapper .card-box .meta\" mbr-text mbr-theme-style=\"display-4\">House\n\t\t\t\t\t\t\t\t\t\t\tCleaning</span>\n\t\t\t\t\t\t\t\t\t</span> <span class=\"item-date\">\n\t\t\t\t\t\t\t\t\t\t<span class=\"mbr-iconfont comment mbrib-calendar\" mbr-icon></span>\n\t\t\t\t\t\t\t\t\t\t<span class=\"mbr-fonts-style mbr-text date item\" data-app-selector=\".card-wrapper .card-box .meta .item-date .date, .card-wrapper .card-box .meta\" mbr-text mbr-theme-style=\"display-4\">August\n\t\t\t\t\t\t\t\t\t\t\t24,\n\t\t\t\t\t\t\t\t\t\t\t2025</span>\n\t\t\t\t\t\t\t\t\t</span> <span class=\"item-comment\">\n\t\t\t\t\t\t\t\t\t\t<span class=\"mbr-iconfont comment mbrib-help\" mbr-icon></span>\n\t\t\t\t\t\t\t\t\t\t<span class=\"mbr-fonts-style mbr-text comment item\" data-app-selector=\".card-wrapper .card-box .meta .item-comment .comment, .card-wrapper .card-box .meta\" mbr-text mbr-theme-style=\"display-4\">No\n\t\t\t\t\t\t\t\t\t\t\tComments: 17</span>\n\t\t\t\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t<p class=\"mbr-fonts-style mbr-text mbr-regular align-left pt-3\" data-app-selector=\".card-wrapper .card-box .mbr-text, .mbr-section-btn\" mbr-if=\"showText\" mbr-theme-style=\"display-4\">\n\t\t\t\t\t\t\t\t\tSagittis eu volutpat odio facilisis mauris sit amet massa vitae. Pellentesque habitant morbi tristique senectus. Quis commodo odio aenean sed adipiscing diam donec adipiscing tristique. Eget nunc lobortis mattis aliquam faucibus purus in. Curabitur vitae nunc sed velit dignissim sodales ut eu sem.</p>\n\n\t\t\t\t\t\t\t\t<div class=\"mbr-section-btn mbr-fonts-style mbr-text\" data-app-selector=\".mbr-fonts-style\" data-toolbar=\"mbrBtnMove,mbrBtnLink,mbrBtnAdd\" mbr-buttons=\"true\" mbr-if=\"showLink\" mbr-theme-style=\"display-4\">\n\t\t\t\t\t\t\t\t\t<a class=\"mbr-section-text mbr-bold pb-3 mbr-fonts-style d-inline-block link text-primary\" data-app-selector=\".mbr-fonts-style\" mbr-if=\"showLink\" mbr-theme-style=\"display-4\"> Continue Reading<span class=\"mbrib-plus mbr-iconfont mbr-iconfont-btn mbr-bold\" mbr-icon></span></a>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div aria-labelledby=\"clean2-tab7\" class=\"tab-pane\" id=\"clean2-tab7-content\" role=\"tabpanel\">\n\t\t\t\t\t\t<div class=\"card-wrapper\">\n\t\t\t\t\t\t\t<div class=\"img-wrap\">\n\t\t\t\t\t\t\t\t<img alt class=\"img-responsive clients-img\" src=\"../_images/img/11.jpg\" title>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"card-box align-left\">\n\n\t\t\t\t\t\t\t\t<h4 class=\"mbr-fonts-style mbr-semibold align-left card-title\" data-app-selector=\".card-wrapper .card-box .card-title, .mbr-section-btn, .card-wrapper .card-box .meta\" mbr-if=\"showTitle\" mbr-theme-style=\"display-2\">\n\t\t\t\t\t\t\t\t\tTrained with a 50 point checklist</h4>\n\t\t\t\t\t\t\t\t<h5 class=\"card-subtitle align-left mbr-fonts-style mb-4\" data-app-selector=\".card-wrapper .card-box .card-subtitle, .mbr-section-btn, .card-wrapper .card-box .meta\" mbr-if=\"showSubtitle\" mbr-theme-style=\"display-7\">\n\t\t\t\t\t\t\t\t\tBring &amp; use green products</h5>\n\t\t\t\t\t\t\t\t<div class=\"meta mbr-bold\" mbr-if=\"showMeta\" mbr-theme-style=\"display-4\">\n\t\t\t\t\t\t\t\t\t<span class=\"item-category\">\n\t\t\t\t\t\t\t\t\t\t<span class=\"mbr-iconfont clock mbrib-folder\" mbr-icon></span>\n\t\t\t\t\t\t\t\t\t\t<span class=\"mbr-fonts-style mbr-text category item\" data-app-selector=\".card-wrapper .card-box .meta .item-category .item, .card-wrapper .card-box .meta\" mbr-text mbr-theme-style=\"display-4\">House\n\t\t\t\t\t\t\t\t\t\t\tCleaning</span>\n\t\t\t\t\t\t\t\t\t</span> <span class=\"item-date\">\n\t\t\t\t\t\t\t\t\t\t<span class=\"mbr-iconfont comment mbrib-calendar\" mbr-icon></span>\n\t\t\t\t\t\t\t\t\t\t<span class=\"mbr-fonts-style mbr-text date item\" data-app-selector=\".card-wrapper .card-box .meta .item-date .date, .card-wrapper .card-box .meta\" mbr-text mbr-theme-style=\"display-4\">August\n\t\t\t\t\t\t\t\t\t\t\t10,\n\t\t\t\t\t\t\t\t\t\t\t2025</span>\n\t\t\t\t\t\t\t\t\t</span> <span class=\"item-comment\">\n\t\t\t\t\t\t\t\t\t\t<span class=\"mbr-iconfont comment mbrib-help\" mbr-icon></span>\n\t\t\t\t\t\t\t\t\t\t<span class=\"mbr-fonts-style mbr-text comment item\" data-app-selector=\".card-wrapper .card-box .meta .item-comment .comment, .card-wrapper .card-box .meta\" mbr-text mbr-theme-style=\"display-4\">No\n\t\t\t\t\t\t\t\t\t\t\tComments: 8</span>\n\t\t\t\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t<p class=\"mbr-fonts-style mbr-text mbr-regular align-left pt-3\" data-app-selector=\".card-wrapper .card-box .mbr-text, .mbr-section-btn\" mbr-if=\"showText\" mbr-theme-style=\"display-4\">\n\t\t\t\t\t\t\t\t\tSagittis eu volutpat odio facilisis mauris sit amet massa vitae. Pellentesque habitant morbi tristique senectus. Quis commodo odio aenean sed adipiscing diam donec adipiscing tristique. Eget nunc lobortis mattis aliquam faucibus purus in. Curabitur vitae nunc sed velit dignissim sodales ut eu sem.</p>\n\n\t\t\t\t\t\t\t\t<div class=\"mbr-section-btn mbr-fonts-style mbr-text\" data-app-selector=\".mbr-fonts-style\" data-toolbar=\"mbrBtnMove,mbrBtnLink,mbrBtnAdd\" mbr-buttons=\"true\" mbr-if=\"showLink\" mbr-theme-style=\"display-4\">\n\t\t\t\t\t\t\t\t\t<a class=\"mbr-section-text mbr-bold pb-3 mbr-fonts-style d-inline-block link text-primary\" data-app-selector=\".mbr-fonts-style\" mbr-if=\"showLink\" mbr-theme-style=\"display-4\"> Continue Reading<span class=\"mbrib-plus mbr-iconfont mbr-iconfont-btn mbr-bold\" mbr-icon></span></a>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div aria-labelledby=\"clean2-tab8\" class=\"tab-pane\" id=\"clean2-tab8-content\" role=\"tabpanel\">\n\t\t\t\t\t\t<div class=\"card-wrapper\">\n\t\t\t\t\t\t\t<div class=\"img-wrap\">\n\t\t\t\t\t\t\t\t<img alt class=\"img-responsive clients-img\" src=\"../_images/img/12.jpg\" title>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"card-box align-left\">\n\n\t\t\t\t\t\t\t\t<h4 class=\"mbr-fonts-style mbr-semibold align-left card-title\" data-app-selector=\".card-wrapper .card-box .card-title, .mbr-section-btn, .card-wrapper .card-box .meta\" mbr-if=\"showTitle\" mbr-theme-style=\"display-2\">\n\t\t\t\t\t\t\t\t\tCleaning's no fun. In fact, it’s time-consuming, dirty, and can involve a bruised knee or two.</h4>\n\t\t\t\t\t\t\t\t<h5 class=\"card-subtitle align-left mbr-fonts-style mb-4\" data-app-selector=\".card-wrapper .card-box .card-subtitle, .mbr-section-btn, .card-wrapper .card-box .meta\" mbr-if=\"showSubtitle\" mbr-theme-style=\"display-7\">\n\t\t\t\t\t\t\t\t\tLuckily for you, we love to clean.</h5>\n\t\t\t\t\t\t\t\t<div class=\"meta mbr-bold\" mbr-if=\"showMeta\" mbr-theme-style=\"display-4\">\n\t\t\t\t\t\t\t\t\t<span class=\"item-category\">\n\t\t\t\t\t\t\t\t\t\t<span class=\"mbr-iconfont clock mbrib-folder\" mbr-icon></span>\n\t\t\t\t\t\t\t\t\t\t<span class=\"mbr-fonts-style mbr-text category item\" data-app-selector=\".card-wrapper .card-box .meta .item-category .item, .card-wrapper .card-box .meta\" mbr-text mbr-theme-style=\"display-4\">House\n\t\t\t\t\t\t\t\t\t\t\tCleaning</span>\n\t\t\t\t\t\t\t\t\t</span> <span class=\"item-date\">\n\t\t\t\t\t\t\t\t\t\t<span class=\"mbr-iconfont comment mbrib-calendar\" mbr-icon></span>\n\t\t\t\t\t\t\t\t\t\t<span class=\"mbr-fonts-style mbr-text date item\" data-app-selector=\".card-wrapper .card-box .meta .item-date .date, .card-wrapper .card-box .meta\" mbr-text mbr-theme-style=\"display-4\">August\n\t\t\t\t\t\t\t\t\t\t\t01,\n\t\t\t\t\t\t\t\t\t\t\t2025</span>\n\t\t\t\t\t\t\t\t\t</span> <span class=\"item-comment\">\n\t\t\t\t\t\t\t\t\t\t<span class=\"mbr-iconfont comment mbrib-help\" mbr-icon></span>\n\t\t\t\t\t\t\t\t\t\t<span class=\"mbr-fonts-style mbr-text comment item\" data-app-selector=\".card-wrapper .card-box .meta .item-comment .comment, .card-wrapper .card-box .meta\" mbr-text mbr-theme-style=\"display-4\">No\n\t\t\t\t\t\t\t\t\t\t\tComments: 11</span>\n\t\t\t\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t<p class=\"mbr-fonts-style mbr-text mbr-regular align-left pt-3\" data-app-selector=\".card-wrapper .card-box .mbr-text, .mbr-section-btn\" mbr-if=\"showText\" mbr-theme-style=\"display-4\">\n\t\t\t\t\t\t\t\t\tSagittis eu volutpat odio facilisis mauris sit amet massa vitae. Pellentesque habitant morbi tristique senectus. Quis commodo odio aenean sed adipiscing diam donec adipiscing tristique. Eget nunc lobortis mattis aliquam faucibus purus in. Curabitur vitae nunc sed velit dignissim sodales ut eu sem.</p>\n\n\t\t\t\t\t\t\t\t<div class=\"mbr-section-btn mbr-fonts-style mbr-text\" data-app-selector=\".mbr-fonts-style\" data-toolbar=\"mbrBtnMove,mbrBtnLink,mbrBtnAdd\" mbr-buttons=\"true\" mbr-if=\"showLink\" mbr-theme-style=\"display-4\">\n\t\t\t\t\t\t\t\t\t<a class=\"mbr-section-text mbr-bold pb-3 mbr-fonts-style d-inline-block link text-primary\" data-app-selector=\".mbr-fonts-style\" mbr-if=\"showLink\" mbr-theme-style=\"display-4\"> Continue Reading<span class=\"mbrib-plus mbr-iconfont mbr-iconfont-btn mbr-bold\" mbr-icon></span></a>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class=\"col-lg-4 order-lg-2 order-1\">\n\t\t\t\t<div class=\"categories\">\n\t\t\t\t\t<h3 class=\"mbr-section-subtitle mbr-semibold mbr-fonts-style align-left pb-3\" data-app-selector=\".categories .mbr-section-subtitle\" mbr-theme-style=\"display-2\">\n\t\t\t\t\t\tUnsere Vorteile</h3>\n\t\t\t\t\t<ul class=\"nav nav-tabs\" data-app-placeholder=\"Type Title\" role=\"tablist\">\n\t\t\t\t\t\t<li class=\"nav-item\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrLink,-mbrBtnRemove\" mbr-buttons mbr-theme-style=\"display-4\"><a aria-controls=\"#clean2-tab1-content\" aria-expanded=\"true\" class=\"nav-link mbr-fonts-style active\" data-toggle=\"tab\" href=\"#tabs2-7_tab0\" role=\"tab\" data-app-placeholder=\"Type Text\" data-bs-toggle=\"tab\" aria-selected=\"true\"> Zentrale Lage </a></li>\n\t\t\t\t\t\t<li class=\"nav-item\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrBtnRemove\" mbr-buttons mbr-if=\"bootstrapTabs > 1\" mbr-theme-style=\"display-4\"><a aria-controls=\"#clean2-tab2-content\" aria-selected=\"true\" class=\"nav-link mbr-fonts-style active\" data-app-placeholder=\"Type Text\" data-toggle=\"tab\" href=\"#tabs2-7_tab1\" role=\"tab\" data-bs-toggle=\"tab\"> Flexible Utterichtszeiten </a></li>\n\t\t\t\t\t\t<li class=\"nav-item\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrLink,-mbrBtnRemove\" mbr-buttons mbr-if=\"bootstrapTabs > 2\" mbr-theme-style=\"display-4\"><a aria-controls=\"#clean2-tab3-content\" aria-selected=\"true\" class=\"nav-link mbr-fonts-style active\" data-app-placeholder=\"Type Text\" data-toggle=\"tab\" href=\"#tabs2-7_tab2\" role=\"tab\" data-bs-toggle=\"tab\"> Professionelle Lehrer </a></li>\n\t\t\t\t\t\t<li class=\"nav-item\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrLink,-mbrBtnRemove\" mbr-buttons mbr-if=\"bootstrapTabs > 3\" mbr-theme-style=\"display-4\"><a aria-controls=\"#clean2-tab4-content\" aria-selected=\"true\" class=\"nav-link mbr-fonts-style active\" data-app-placeholder=\"Type Text\" data-toggle=\"tab\" href=\"#tabs2-7_tab3\" role=\"tab\" data-bs-toggle=\"tab\"> Prüfungs Auf allen Niveaustufen </a></li>\n\t\t\t\t\t\t<li class=\"nav-item\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrLink,-mbrBtnRemove\" mbr-buttons mbr-if=\"bootstrapTabs > 4\" mbr-theme-style=\"display-4\"><a aria-controls=\"#clean2-tab5-content\" aria-selected=\"true\" class=\"nav-link mbr-fonts-style active\" data-app-placeholder=\"Type Text\" data-toggle=\"tab\" href=\"#tabs2-7_tab4\" role=\"tab\" data-bs-toggle=\"tab\"> Prüfungs für jeden Geldbeutel </a></li>\n\t\t\t\t\t\t<li class=\"nav-item\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrLink,-mbrBtnRemove\" mbr-buttons mbr-if=\"bootstrapTabs > 5\" mbr-theme-style=\"display-4\">\n\t\t\t\t\t\t\t<a aria-controls=\"#clean2-tab6-content\" aria-selected=\"true\" class=\"nav-link mbr-fonts-style\" data-app-placeholder=\"Type Text\" data-toggle=\"tab\" href=\"#clean2-tab6-content\" id=\"clean2-tab6\" role=\"tab\"> Kitchen </a>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t\t<li class=\"nav-item\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrLink,-mbrBtnRemove\" mbr-buttons mbr-if=\"bootstrapTabs > 6\" mbr-theme-style=\"display-4\">\n\t\t\t\t\t\t\t<a aria-controls=\"#clean2-tab7-content\" aria-selected=\"true\" class=\"nav-link mbr-fonts-style\" data-app-placeholder=\"Type Text\" data-toggle=\"tab\" href=\"#clean2-tab7-content\" id=\"clean2-tab7\" role=\"tab\"> Corporate </a>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t\t<li class=\"nav-item\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrLink,-mbrBtnRemove\" mbr-buttons mbr-if=\"bootstrapTabs > 7\" mbr-theme-style=\"display-4\">\n\t\t\t\t\t\t\t<a aria-controls=\"#clean2-tab8-content\" aria-selected=\"true\" class=\"nav-link mbr-fonts-style\" data-app-placeholder=\"Type Text\" data-toggle=\"tab\" href=\"#clean2-tab8-content\" id=\"clean2-tab8\" role=\"tab\"> Carpet </a>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t</ul>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"newsletter\" mbr-if=\"showForm\">\n\t\t\t\t\t<h3 class=\"mbr-section-subtitle mbr-semibold mbr-fonts-style align-left pb-3\" data-app-selector=\".newsletter .mbr-section-subtitle\" mbr-theme-style=\"display-7\">\n\t\t\t\t\t\tNewsletter </h3>\n\t\t\t\t\t<div class=\"form1\" mbr-form mbr-if=\"showForm\">\n\t\t\t\t\t\t<form action class=\"mbr-form form-with-styler px-2\" method=\"POST\" name=\"My Mobirise Form\">\n\t\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t\t<div class=\"alert alert-success col-12\" data-form-alert hidden=\"hidden\">Thanks for filling out the form!</div>\n\t\t\t\t\t\t\t\t<div class=\"alert alert-danger col-12\" data-form-alert-danger hidden=\"hidden\"></div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"dragArea row\">\n\t\t\t\t\t\t\t\t<div class=\"form-group col\" data-for=\"email\">\n\t\t\t\t\t\t\t\t\t<input class=\"form-control\" data-form-field=\"E-mail\" mbr-theme-style=\"display-4\" name=\"email\" placeholder=\"Enter your email\" required=\"required\" type=\"text\">\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t<div class=\"mbr-section-btn\" data-toolbar=\"-mbrBtnMove,-mbrBtnLink,-mbrBtnAdd\" mbr-buttons=\"true\" mbr-theme-style=\"display-4\">\n\t\t\t\t\t\t\t\t\t<a class=\"btn btn-lg btn-secondary\" type=\"submit\">Subscribe Now</a>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</form>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</section>",
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value",
+              "& when (@gradientBg)": {
+                "background": "linear-gradient(0deg, @bg-value, @color2)"
+              }
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".main-content": {
+              ".mbr-section-subtitle": {
+                "color": "@secondaryColor",
+                "margin-bottom": "10px"
+              },
+              ".mbr-section-title": {
+                "margin-bottom": "20px",
+                "color": "@primaryColor"
+              },
+              ".mbr-text": {
+                "color": "@infoColor"
+              }
+            },
+            ".categories": {
+              "background-color": "@tabsSectionBgColor",
+              "padding": "35px 30px 40px",
+              "margin-bottom": "35px",
+              ".mbr-section-subtitle": {
+                "position": "relative",
+                "padding-bottom": "20px",
+                "margin-bottom": "30px",
+                "color": "@primaryColor",
+                "&::before": {
+                  "content": "\"\"",
+                  "display": "block",
+                  "width": "20px",
+                  "height": "3px",
+                  "background-color": "@linesColor",
+                  "position": "absolute",
+                  "left": "0",
+                  "bottom": "0"
+                },
+                "&::after": {
+                  "content": "\"\"",
+                  "display": "block",
+                  "width": "35px",
+                  "height": "3px",
+                  "background-color": "@linesColor",
+                  "position": "absolute",
+                  "left": "30px",
+                  "bottom": "0"
+                }
+              },
+              ".nav": {
+                "border": "none",
+                "width": "100%",
+                "display": "block !important",
+                "margin-top": "-10px",
+                ".nav-item": {
+                  "display": "inline-block",
+                  "&:hover": {
+                    ".nav-link": {
+                      "color": "@tabTextHoverColor !important",
+                      "background": "@tabBgHoverColor !important"
+                    }
+                  },
+                  ".nav-link": {
+                    "display": "inline-block",
+                    "color": "@tabTextColor",
+                    "box-sizing": "border-box",
+                    "font-style": "normal",
+                    "background": "@tabBgColor",
+                    "padding": "11px 20px",
+                    "border": "1px solid darken(@tabBgColor, 6.3%)",
+                    "margin-top": "10px",
+                    "margin-right": "6px",
+                    "border-radius": "3px !important",
+                    "transition": "all .3s linear 0ms",
+                    "font-weight": "500",
+                    "line-height": "1.8",
+                    "&:hover": {
+                      "background-color": "@activeTabColor1",
+                      "color": "contrast(@activeTabColor1)"
+                    },
+                    "&.active": {
+                      "font-weight": "500",
+                      "color": "contrast(@activeTabColor1)",
+                      "font-style": "normal",
+                      "background": "@activeTabColor1"
+                    }
+                  }
+                }
+              }
+            },
+            "@media (max-width: 767px)": {
+              ".nav-item": {
+                "display": "table-row !important"
+              }
+            },
+            ".card-wrapper": {
+              "height": "100%",
+              "margin-bottom": "15px",
+              ".img-wrap": {
+                "margin-bottom": "30px",
+                "img": {
+                  "width": "100%"
+                }
+              },
+              ".card-box": {
+                ".card-title": {
+                  "color": "@primaryColor",
+                  "transition": "0.3s all",
+                  "margin-bottom": "20px",
+                  "&:hover": {
+                    "color": "@primaryColor",
+                    "transition": "0.3s all"
+                  }
+                },
+                ".meta": {
+                  "color": "#999999",
+                  "position": "relative",
+                  "margin-bottom": "33px",
+                  "& when (@showLines)": {
+                    "&::before": {
+                      "content": "\"\"",
+                      "display": "block",
+                      "width": "20px",
+                      "height": "3px",
+                      "background-color": "@linesColor",
+                      "position": "absolute",
+                      "left": "0",
+                      "bottom": "-25px"
+                    }
+                  },
+                  ".item": {
+                    "transition": "all 0.3s ease-in",
+                    "&:hover": {
+                      "color": "@tagsHoverColor !important"
+                    }
+                  },
+                  ".mbr-iconfont": {
+                    "color": "@infoColor",
+                    "margin-right": "4px",
+                    "font-size": "14px",
+                    "font-weight": "400"
+                  },
+                  ".item-category": {
+                    ".category": {
+                      "color": "@primaryColor",
+                      "font-weight": "500"
+                    },
+                    "&:hover": {
+                      ".mbr-iconfont": {
+                        "color": "@tagsHoverColor !important"
+                      }
+                    }
+                  },
+                  ".item-date": {
+                    ".date": {
+                      "color": "@infoColor",
+                      "font-weight": "500"
+                    },
+                    "&:hover": {
+                      ".mbr-iconfont": {
+                        "color": "@tagsHoverColor !important"
+                      }
+                    },
+                    "&:before": {
+                      "content": "\"-\"",
+                      "margin-left": "5px",
+                      "margin-right": "3px",
+                      "color": "@infoColor"
+                    },
+                    "&::after": {
+                      "content": "\"-\"",
+                      "margin-left": "5px",
+                      "margin-right": "3px",
+                      "color": "@infoColor"
+                    }
+                  },
+                  ".item-comment": {
+                    ".comment": {
+                      "color": "@infoColor",
+                      "font-weight": "500"
+                    },
+                    "&:hover": {
+                      ".mbr-iconfont": {
+                        "color": "@tagsHoverColor !important"
+                      }
+                    },
+                    "& when (@showLines)": {
+                      "&:after": {
+                        "content": "\"\"",
+                        "display": "block",
+                        "width": "35px",
+                        "height": "3px",
+                        "background-color": "@linesColor",
+                        "position": "absolute",
+                        "left": "30px",
+                        "bottom": "-25px"
+                      }
+                    }
+                  }
+                },
+                ".card-subtitle": {
+                  "color": "@primaryColor",
+                  "margin-bottom": "13px",
+                  "font-weight": "500"
+                },
+                ".mbr-text": {
+                  "margin-bottom": "24px",
+                  "color": "@infoColor"
+                },
+                ".mbr-section-btn": {
+                  "position": "relative",
+                  "margin-left": "1px",
+                  ".link": {
+                    "display": "flex !important",
+                    "justify-content": "flex-start",
+                    "align-items": "center"
+                  },
+                  ".mbr-iconfont": {
+                    "font-size": "16px",
+                    "margin-left": "40px",
+                    "position": "relative",
+                    "top": "1px",
+                    "display": "inline-flex",
+                    "width": "46px",
+                    "height": "46px",
+                    "background": "0 0",
+                    "color": "@iconColor",
+                    "align-items": "center",
+                    "justify-content": "center",
+                    "transition": "all .3s linear 0s",
+                    "order": "2",
+                    "&::after": {
+                      "content": "\"\"",
+                      "position": "absolute",
+                      "top": "0",
+                      "left": "0",
+                      "display": "block",
+                      "width": "100%",
+                      "height": "100%",
+                      "background-color": "@iconBgColorHover",
+                      "transform": "scale(0)",
+                      "transition": "all .3s linear 0s"
+                    },
+                    "&::before": {
+                      "position": "relative",
+                      "z-index": "1"
+                    }
+                  }
+                },
+                "&:hover": {
+                  ".mbr-section-btn": {
+                    ".mbr-iconfont": {
+                      "&::before": {
+                        "color": "@iconColorHover"
+                      },
+                      "&::after": {
+                        "transform": "scale(1)",
+                        "box-shadow": "0 10px 30px 0 @iconBgColorHover"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            ".newsletter": {
+              "padding": "35px 30px 40px",
+              "background-color": "@tabsSectionBgColor",
+              "border-radius": "3px",
+              "display": "block",
+              ".mbr-section-subtitle": {
+                "position": "relative",
+                "padding-bottom": "20px",
+                "margin-bottom": "30px",
+                "color": "@primaryColor",
+                "&::before": {
+                  "content": "\"\"",
+                  "display": "block",
+                  "width": "20px",
+                  "height": "3px",
+                  "background-color": "@linesColor",
+                  "position": "absolute",
+                  "left": "0",
+                  "bottom": "0"
+                },
+                "&::after": {
+                  "content": "\"\"",
+                  "display": "block",
+                  "width": "35px",
+                  "height": "3px",
+                  "background-color": "@linesColor",
+                  "position": "absolute",
+                  "left": "30px",
+                  "bottom": "0"
+                }
+              },
+              ".form-group, .mbr-section-btn": {
+                "margin": "0",
+                "padding": "0",
+                "display": "-webkit-flex"
+              },
+              ".form-control": {
+                "font-size": "14px",
+                "background": "@inputBg",
+                "color": "@inputTextColor",
+                "display": "block",
+                "height": "60px",
+                "border-radius": "3px",
+                "width": "100%",
+                "padding": "13px 20px !important",
+                "padding-right": "50px !important",
+                "transition": "all .3s linear 0ms",
+                "&::-webkit-input-placeholder": {
+                  "color": "@inputTextColor"
+                },
+                "&::-moz-placeholder": {
+                  "color": "@inputTextColor"
+                },
+                "&:-moz-placeholder": {
+                  "color": "@inputTextColor"
+                },
+                "&:-ms-input-placeholder": {
+                  "color": "@inputTextColor"
+                }
+              },
+              ".form-group": {
+                "margin-bottom": "8.6px"
+              },
+              ".dragArea": {
+                "flex-direction": "column",
+                ".mbr-section-btn": {
+                  ".btn": {
+                    "font-weight": "bold",
+                    "margin-left": "0 !important",
+                    "margin-right": "0 !important",
+                    "width": "100%",
+                    "border-radius": "0",
+                    "&.btn-secondary": {
+                      "&:hover": {
+                        "background-color": "@successColor !important",
+                        "border-color": "@successColor !important",
+                        "color": "#000000 !important"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "@media (max-width: 768px)": {
+              ".img-wrap": {
+                "margin-top": "20px"
+              },
+              ".categories": {
+                ".mbr-section-subtitle": {
+                  "text-align": "left"
+                }
+              },
+              ".newsletter": {
+                ".mbr-section-subtitle": {
+                  "text-align": "left"
+                }
+              },
+              ".meta": {
+                "&::before": {
+                  "display": "none !important"
+                },
+                ".item-comment": {
+                  "&::after": {
+                    "display": "none !important"
+                  }
+                }
+              },
+              ".link": {
+                "justify-content": "center !important"
+              }
+            },
+            ".mbr-fallback-image.disabled": {
+              "display": "none"
+            },
+            ".mbr-fallback-image": {
+              "display": "block",
+              "background-size": "cover",
+              "background-position": "center center",
+              "width": "100%",
+              "height": "100%",
+              "position": "absolute",
+              "top": "0",
+              "& when (@bg-type = 'video')": {
+                "background-image": "url(@fallBackImage)"
+              }
+            },
+            ".categories .mbr-section-subtitle": {
+              "color": "#000000"
+            }
+          },
+          "_cid": "tqVhp1jQCn",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "tabs2-7"
+        }
+      ]
+    }
+  }
+}
